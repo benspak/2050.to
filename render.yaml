@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: 2050-token-static
+    env: static
+    plan: starter
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_ENV
+        value: production
+    autoDeploy: true
