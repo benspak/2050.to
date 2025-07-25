@@ -3,7 +3,7 @@ services:
     name: 2050-token-static
     env: static
     plan: starter
-    buildCommand: npm run build
+    buildCommand: npm run render-build
     staticPublishPath: ./dist
     envVars:
       - key: NODE_ENV
