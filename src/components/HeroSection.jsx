@@ -98,18 +98,6 @@ const HeroSection = () => {
             <HStack spacing={4} flexWrap="wrap" justify="center">
               <Button
                 size="lg"
-                leftIcon={<FaRocket />}
-                colorScheme="brand"
-                px={8}
-                py={6}
-                fontSize="lg"
-                _hover={{ transform: 'translateY(-2px)', boxShadow: 'lg' }}
-                transition="all 0.3s"
-              >
-                Join the Movement
-              </Button>
-              <Button
-                size="lg"
                 variant="outline"
                 leftIcon={<FaExternalLinkAlt />}
                 px={8}

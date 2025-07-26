@@ -62,13 +62,6 @@ const Navbar = () => {
             >
               Solscan
             </Button>
-            <Button
-              colorScheme="brand"
-              size="sm"
-              leftIcon={<FaRocket />}
-            >
-              Join Movement
-            </Button>
           </HStack>
 
           <IconButton
@@ -96,14 +89,6 @@ const Navbar = () => {
                 _hover={{ bg: 'brand.500', color: 'white' }}
               >
                 Solscan
-              </Button>
-              <Button
-                colorScheme="brand"
-                size="sm"
-                leftIcon={<FaRocket />}
-                w="full"
-              >
-                Join Movement
               </Button>
             </VStack>
           </Box>

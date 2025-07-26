@@ -30,7 +30,7 @@ const RoadmapSection = () => {
       icon: FaRocket,
       features: ['Token Launch', 'Community Formation', 'Vision Establishment']
     },
-    {
+    /*{
       year: '2030',
       title: 'Growth Phase',
       description: 'Expanding the community and building educational resources for long-term DeFi strategies.',
@@ -56,7 +56,7 @@ const RoadmapSection = () => {
       progress: 0,
       icon: FaStar,
       features: ['Generational Wealth', 'DeFi Adoption', 'Legacy Establishment']
-    }
+    }*/
   ]
 
   const getStatusColor = (status) => {

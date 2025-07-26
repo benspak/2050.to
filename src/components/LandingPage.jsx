@@ -72,7 +72,7 @@ const LandingPage = () => {
                   <CardBody textAlign="center">
                     <Icon as={FaUsers} w={10} h={10} color="brand.500" mb={4} />
                     <Heading size="md" mb={2}>Community-Led</Heading>
-                    <Text color="gray.300">No central team, just a decentralized movement.</Text>
+                    <Text color="gray.300">Community Led, Community Driven</Text>
                   </CardBody>
                 </Card>
 

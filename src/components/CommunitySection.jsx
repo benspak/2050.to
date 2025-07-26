@@ -21,7 +21,7 @@ const CommunitySection = () => {
   const borderColor = useColorModeValue('gray.700', 'gray.700')
 
   const socialLinks = [
-    {
+ /*   {
       name: 'Discord',
       icon: FaDiscord,
       color: '#5865F2',
@@ -43,6 +43,7 @@ const CommunitySection = () => {
       description: 'Community discussions and memes',
       url: '#',
     },
+    */
     {
       name: 'X',
       icon: FaTwitter,
@@ -157,23 +158,7 @@ const CommunitySection = () => {
           </CardBody>
         </Card>
 
-        <Box textAlign="center" w="full">
-          <Text fontSize="xl" color="gray.300" mb={6}>
-            Ready to join the movement?
-          </Text>
-          <Button
-            size="lg"
-            colorScheme="brand"
-            leftIcon={<FaRocket />}
-            px={8}
-            py={6}
-            fontSize="lg"
-            _hover={{ transform: 'translateY(-2px)', boxShadow: 'lg' }}
-            transition="all 0.3s"
-          >
-            Join the 2050 Movement
-          </Button>
-        </Box>
+
       </VStack>
     </Box>
   )
